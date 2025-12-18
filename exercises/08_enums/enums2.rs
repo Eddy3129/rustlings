@@ -9,9 +9,9 @@ enum Message {
     // TODO: Define the different variants used below.
     Move(Point),
     Echo(String),
-    ChangeColor(u8,u8,u8),
-    Resize{width:u8, height:u8},
-    Quit
+    ChangeColor(u8, u8, u8),
+    Resize { width: u8, height: u8 },
+    Quit,
 }
 
 impl Message {
